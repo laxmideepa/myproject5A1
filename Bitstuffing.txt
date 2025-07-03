@@ -1,0 +1,41 @@
+import java.util.*;
+import java.lang.*;
+import java.io.*;
+public class Bitstuffing
+{
+public static void main(string args[])throws loException
+{
+System.out.println("enter the binary message");
+BufferedReader br=new BufferedReader(new inputstreamReader(system.in));
+string str=br.readline();
+string res=new string();
+int count=0;
+for(int i=0;i<str.length();i++)
+{
+System.out.println(str.length();i++)
+{
+System.out.println(str.charAt(i));
+if(str.charAtr(i)!='1'&&str.chartAtr(i)!='0')
+{
+System.out.println("enter the binary values");
+return;
+}
+if(str.chartAt(i)=='1')
+{
+count++;
+res=res+str.charAt(i);
+}
+else
+{
+res=res+str.chartAt(i);
+count=0;
+}
+res=res+'0';
+count=0;
+}
+}
+System.out.println("the original message:"+str);
+System.out.println("the Bitstuffing message:"+res);
+res="01111110"+res+"01111110";
+}
+}
